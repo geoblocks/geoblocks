@@ -66,7 +66,7 @@ as a [typechecker](https://github.com/geoblocks/proj/blob/15f12c755d50f0129f1e4e
 
 ## Testing
 
-- enable CI with tests and coverage;
+- enable CI with tests and coverage [example with JEST](https://github.com/geoblocks/proj/commit/96db2d43f8d093b262421ac9b527764af1fa9893);
 - publish a documentation;
 - eventually publish examples.
 

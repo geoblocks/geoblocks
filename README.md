@@ -34,7 +34,7 @@ The `proj` block exposes `OpenLayers` projections. To use them:
 
 - Create issue / PR in the block;
 - A block maintainer will review and merge;
-- To create new blocks [get in touch with us](guillaume.beraudo@camptocamp.com).
+- To create new blocks [get in touch with us](mailto:guillaume.beraudo@camptocamp.com).
 
 
 ## Choosing dependency versions

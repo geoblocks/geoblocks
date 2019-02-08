@@ -75,7 +75,7 @@ See the [sources block](https://github.com/geoblocks/sources).
 
 ## Publication
 
-To accommodate different use cases, blocks are published with:
+To accommodate [different usages](https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages), blocks are published with:
 - a "geoblocks_src" entry pointing to modern code written in the latest Ecmascript standard;
 - "main" and "module" entries pointing to ES6 modules + ES5 language (Typescript / Angular).
 

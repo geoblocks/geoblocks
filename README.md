@@ -71,3 +71,14 @@ as a [typechecker](https://github.com/geoblocks/proj/blob/15f12c755d50f0129f1e4e
 - eventually publish examples.
 
 See the [sources block](https://github.com/geoblocks/sources).
+
+
+## Publication
+
+To accommodate [different usages](https://babeljs.io/blog/2018/06/26/on-consuming-and-publishing-es2015+-packages), blocks are published with:
+- a "geoblocks_src" entry pointing to modern code written in the latest Ecmascript standard;
+- "main" and "module" entries pointing to ES6 modules + ES5 language (Typescript / Angular).
+
+Specifically, with `webpack` the following configuration will make use of the `geoblocks_src` entry:
+- `mainFields: ["geoblocks_src", "module", "main"]` [resolve config](https://webpack.js.org/configuration/resolve/#resolve-mainfields);
+- `babel` rule `{test: /\.js$/, exclude: /node_modules\/(?!(@geoblocks|ANOTHER-MODULE)\/).*/,},` [exclude](https://github.com/webpack/webpack/issues/2031).
